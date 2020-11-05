@@ -1,10 +1,11 @@
-import { Button } from 'antd';
-import './App.css';
+import React from 'react'
 
-const App = () => (
-  <div className="App">
-    <Button type="primary">Button</Button>
-  </div>
-);
+class Form extends React.Component {
+  render() {
+    return (
+      <h1>Hola</h1>
+    )
+  }
+}
 
-export default App;
+export default Form
