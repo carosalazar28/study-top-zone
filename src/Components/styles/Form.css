@@ -1,0 +1,36 @@
+.Form {
+  width: 350px;
+  margin: auto;
+}
+
+label,
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+input {
+  border: 1px gray solid;
+}
+
+.Form__terms-input,
+.Form__terms-label {
+  width: fit-content;
+  display: inline-block;
+}
+
+.Form__subtmit-span {
+  display: flex;
+  justify-content: center;
+}
+
+.Form__submit-input {
+  width: 163px;
+  padding: 10px 40px;
+  border: none;
+  background-color: #7741ff;
+  color: white;
+  margin: 12px 0;
+}
