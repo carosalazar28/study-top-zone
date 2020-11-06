@@ -1,11 +1,13 @@
 import React from 'react'
+import Form from './Components/Form'
 
-class Form extends React.Component {
-  render() {
+function App () {
     return (
-      <h1>Hola</h1>
+      <>
+        <h1>Formulario</h1>
+        <Form/>
+      </>
     )
-  }
 }
 
-export default Form
+export default App
