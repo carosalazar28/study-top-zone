@@ -10,24 +10,6 @@ class Form extends React.Component {
     userType: '',
   }
 
-  handleChange = (e) => {
-    const { name, type, checked, value } = e.target
-    this.setState({ [name]: type === 'checkbox' ? checked : value })
-  }
-
-  handleSubmit = (e) => {
-    console.log(this.setState)
-    e.preventDefault()
-    this.setState({
-      name: '',
-      lastName: '',
-      email: '',
-      password: '',
-      terms: false,
-      userType: '',
-    })
-  }
-
   render() {
     console.log(this.state)
     return(
@@ -135,11 +117,10 @@ class Form extends React.Component {
           </select>
         </span>
         <span className='Form__subtmit-span'>
-          <input
+          <button
             className='Form__submit-input'
-            type='submit'
-            value='Enviar'
-          />
+          >
+          </button>
         </span>
       </form>
     )
